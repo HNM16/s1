@@ -2,10 +2,10 @@
 
 import { useState } from "react"
 import { AnimatePresence } from "framer-motion"
-import CastleEntrance from "@/components/castle-entrance"
-import ButterflyTransformation from "@/components/butterfly-transformation"
-import EnvelopeLetter from "@/components/envelope-letter"
-import FloatingHearts from "@/components/floating-hearts"
+import CastleEntrance from "@/components/lock-transition"
+import ButterflyTransformation from "@/components/butterflies"
+import EnvelopeLetter from "@/components/letter"
+import FloatingHearts from "@/components/hearts"
 
 export default function Home() {
   const [stage, setStage] = useState<"entrance" | "butterflies" | "letter">("entrance")
